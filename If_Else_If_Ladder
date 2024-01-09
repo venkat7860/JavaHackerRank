@@ -1,0 +1,32 @@
+package InterviewPreparation;
+
+public class If_Else_If_Ladder {
+
+	public static void main(String[] args) 
+	{
+		int a=10;
+		int b=50;
+		
+		if(a==b)
+		{
+			System.out.println("A is equal to B");
+		}
+		else if (a>b)
+		{
+			System.out.println("A is greater to B");
+
+		}
+		else if (a<b)
+		{
+			System.out.println("A is Lesser to B");
+
+		}
+		else if (a!=b)
+		{
+			System.out.println("A is Not Equal to B");
+
+		}
+
+	}
+
+}
